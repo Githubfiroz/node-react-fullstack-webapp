@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({hi:'my first node web app.'});
+  res.send({hi:'This is my first node web appln.'});
 });
 
 //app.listen(5000); //http://localhost:5000/
